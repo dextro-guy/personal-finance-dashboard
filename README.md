@@ -1,4 +1,3 @@
-````markdown
 # 📊 Personal Finance Dashboard
 
 **A Streamlit application that transforms your raw transaction data into actionable insights, visualizations, and budget recommendations.**
