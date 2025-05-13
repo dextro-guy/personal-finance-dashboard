@@ -1,4 +1,4 @@
-# 📊 Personal Finance Dashboard
+## 📊 Personal Finance Dashboard
 
 **A Streamlit application that transforms your raw transaction data into actionable insights, visualizations, and budget recommendations.**
 
@@ -47,7 +47,7 @@ personal-finance-dashboard/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/personal-finance-dashboard.git
+   git clone https://github.com/dextro-guy/personal-finance-dashboard.git
    cd personal-finance-dashboard
    ```
 
@@ -116,23 +116,13 @@ Visit `http://localhost:8501` in your browser.
 
 ## ⭐ Future Enhancements
 
-* OCR integration for receipt parsing
-* Multi-user support & authentication
 * Machine Learning–driven categorization
 * Exportable reports (PDF, CSV)
+* OCR integration for receipt parsing
+* Multi-user support & authentication
+
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Please open an issue or pull request.
 
----
-
-## 📬 Contact
-
-Questions? Reach me at [your.email@domain.com](mailto:your.email@domain.com).
-
-```
-```
-"# personal-finance-dashboard" 
