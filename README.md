@@ -2,7 +2,6 @@
 
 **A Streamlit application that transforms your raw transaction data into actionable insights, visualizations, and budget recommendations.**
 
----
 
 ## 🔍 Overview
 This tool ingests your banking transactions (from Excel), categorizes each entry, analyzes spending patterns, and suggests budget adjustments.
@@ -12,7 +11,6 @@ This tool ingests your banking transactions (from Excel), categorizes each entry
 - **Budget Recommendations**: Tailored advice on discretionary categories.
 - **Interactive Dashboard**: Date-range filters, dynamic metrics, and drill-down on raw data.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +20,6 @@ This tool ingests your banking transactions (from Excel), categorizes each entry
 - **Matplotlib & Seaborn** (charting)
 - **Parquet** (optimized data caching)
 
----
 
 ## 🗂️ Project Structure
 
@@ -40,7 +37,6 @@ personal-finance-dashboard/
 └── README.md                # Project documentation
 ````
 
----
 
 ## 🚀 Installation & Setup
 
@@ -69,7 +65,6 @@ personal-finance-dashboard/
 
    * Place `transactions.xlsx` in the project root or update the path in `dashboard.py`.
 
----
 
 ## ▶️ Usage
 
@@ -81,7 +76,6 @@ streamlit run dashboard.py
 
 Visit `http://localhost:8501` in your browser.
 
----
 
 ## 📐 Methodology
 
@@ -112,7 +106,6 @@ Visit `http://localhost:8501` in your browser.
    * Overview metrics: total transactions, total spent/received, avg. spend
    * Tabs: Categories, Spending Pattern, Suggestions, Raw Data
 
----
 
 ## ⭐ Future Enhancements
 
@@ -122,7 +115,6 @@ Visit `http://localhost:8501` in your browser.
 * Multi-user support & authentication
 
 
----
 
 
 
