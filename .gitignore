@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (if sensitive or large)
+transactions.xlsx
+transactions.parquet
+
+# Others
+*.log
+.DS_Store
