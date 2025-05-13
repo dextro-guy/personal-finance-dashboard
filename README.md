@@ -27,7 +27,7 @@ This tool ingests your banking transactions (from Excel), categorizes each entry
 
 ## 🗂️ Project Structure
 
-```bash
+```text
 personal-finance-dashboard/
 ├── transactions.xlsx        # Raw transaction data (Excel)
 ├── transactions.parquet     # Cached Parquet for faster reloads
@@ -39,7 +39,7 @@ personal-finance-dashboard/
 ├── utils.py                 # Helper functions (e.g., date filtering)
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-```
+````
 
 ---
 
