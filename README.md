@@ -71,7 +71,7 @@ personal-finance-dashboard/
 Launch the dashboard:
 
 ```bash
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
 Visit `http://localhost:8501` in your browser.
