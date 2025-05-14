@@ -1,6 +1,6 @@
 ## 📊 Personal Finance Dashboard
 
-**A Streamlit application that transforms your raw transaction data into actionable insights, visualizations, and budget recommendations.**
+A Streamlit application that transforms your raw transaction data into actionable insights, visualizations, and budget recommendations.
 
 
 ## 🔍 Overview
@@ -14,7 +14,7 @@ This tool ingests your banking transactions (from Excel), categorizes each entry
 
 ## 🛠️ Tech Stack
 
-- **Python** 3.8+
+- **Python** 
 - **Streamlit** (UI & dashboard)
 - **Pandas & NumPy** (data processing)
 - **Matplotlib & Seaborn** (charting)
