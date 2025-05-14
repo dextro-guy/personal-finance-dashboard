@@ -105,6 +105,21 @@ Visit `http://localhost:8501` in your browser.
    * Sidebar: date-picker + recommendation count slider
    * Overview metrics: total transactions, total spent/received, avg. spend
    * Tabs: Categories, Spending Pattern, Suggestions, Raw Data
+  
+# 🧠 Approach
+
+**Detailed strategy used for key components of the dashboard:**
+
+* **Categorization:** Rule-based approach using transaction keywords mapped to predefined categories. Efficient for known patterns but extendable to ML in future.
+
+* **Spending Analysis:** Time-based aggregation (weekly/monthly) of transaction amounts to discover trends. Histograms and boxplots aid comparison across categories.
+
+* **Recommendation Engine:** Filters non-essential (discretionary) categories, computes their percentage share of overall spend, and generates messages with actionable advice.
+
+* **Performance Optimization:** Uses Parquet to cache transformed data and avoid repeated Excel parsing, improving dashboard load time.
+
+* **Frontend Design:** Clean and interactive Streamlit layout with sidebar controls, expandable raw data, and custom CSS enhancements.
+
 
 
 ## ⭐ Future Enhancements
